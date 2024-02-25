@@ -1,0 +1,20 @@
+{%extends "base.html"%}
+{% block title %}Log in{%endblock%}
+{% block content%}
+    <form method="POST">
+    
+    <h1 class="h3 mb-3 fw-normal">Login</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+      <label for="email">Email address</label>
+    </div>
+    
+    <div class="form-floating">
+      <input type="password" class="form-control" id="lpassword" name="lpassword" placeholder="lPassword">
+      <label for="lpassword">Password</label>
+    </div>
+    
+<button class="btn btn-primary w-100 py-2" type="submit">Log in</button>
+    
+  </form>{%endblock%}
